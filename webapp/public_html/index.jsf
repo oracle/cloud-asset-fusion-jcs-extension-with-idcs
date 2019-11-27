@@ -1,0 +1,24 @@
+<!--
+Copyright © 2018, Oracle and/or its affiliates. All rights reserved.
+Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+-->
+
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+        <h:head></h:head>
+        <h:body>
+            <h:form>
+                <h:panelGrid columns="1">
+                    <h:outputText value="JCS page authorized through IDCS for #{request.userPrincipal.name}"/>
+                    <h:outputText value="Account Details:"/>
+                    <h:outputText value="Party Id: #{accounts.partyId}"/>
+                    <h:outputText value="PartyNumber: #{accounts.partyNumber}"/>
+                    <h:outputText value="Organization Name: #{accounts.organizationName}"/>
+                    <h:outputText value="Owner Email Address: #{accounts.ownerEmailAddress}"/>
+                </h:panelGrid>
+            </h:form>
+        </h:body>
+    </html>
+</f:view>

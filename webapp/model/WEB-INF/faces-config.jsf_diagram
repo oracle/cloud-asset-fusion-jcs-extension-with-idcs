@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <Page
+      id="Page2">
+      <property
+         name="jspName">/index.jsf</property>
+      <property
+         name="x">448.0</property>
+      <property
+         name="start">false</property>
+      <property
+         name="y">244.9375</property>
+      <property
+         name="wildcard">false</property>
+   </Page>
+</SDM>
