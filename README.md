@@ -29,10 +29,25 @@ This sample demonstrates this technique in action and can be used as a starting 
 
 3. Compile and deploy the app to your JCS instance from within JDeveloper 12c.  
 
-   It is assumed the reader knows how to deploy an application to JCS, if not then please refer to the relevant JDeveloper documentation on how to deploy to a Java Cloud Service instance.
+   It is assumed the reader knows how to deploy an application to JCS, if not then please refer to the relevant JDeveloper 12c documentation on how to deploy to a Java Cloud Service instance.
+   
+4. Embed the JCS web page into OEC using the OEC App Composer in a suitable tab. There are two ways this can be done, either within a Subtab (aka Mashup Content Subtab) or using page integration wizard. For more information see :
 
-4. Embed the JCS web page into OEC using the OEC App Composer. Note OEC expects a DNS name instead of an IP address when embedding the JCS web page.
+   - Mashup Content Subtab : https://docs.oracle.com/en/cloud/saas/engagement/19a/oacex/extending-simplified-pages.html#OACEX1906307
+   - Page Integration : https://docs.oracle.com/en/cloud/saas/applications-common/18b/oaext/page-modification.html#OAEXT1683653
+     
 
-## License
+
+   Note OEC expects a DNS name instead of an IP address when embedding the JCS web page.
+
+5. At runtime when the OEC Page is opened OEC will display the JCS page (within an iFrame) without requesting user credentials or any other form  of authentication.
+
+## How to contribute
+
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for information on how to contribute to this project.
+
+
+##  License
+
 Copyright © 2018, Oracle and/or its affiliates. All rights reserved.
 This project is licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
