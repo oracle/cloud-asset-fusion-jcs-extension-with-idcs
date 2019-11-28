@@ -1,4 +1,4 @@
-# Contributing to the Oracle Cloud Infrastructure Go SDK
+# Contributing to the Oracle SSO betwen JCS and Oracle Fusion Applications Sample
 
 *Copyright (c) 2016, 2018, Oracle and/or its affiliates. All rights reserved.*
 
